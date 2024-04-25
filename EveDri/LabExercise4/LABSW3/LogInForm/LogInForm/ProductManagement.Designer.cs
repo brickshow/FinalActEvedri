@@ -102,7 +102,7 @@
             this.txtProdSearch.Location = new System.Drawing.Point(678, 17);
             this.txtProdSearch.Name = "txtProdSearch";
             this.txtProdSearch.Size = new System.Drawing.Size(241, 29);
-            this.txtProdSearch.TabIndex = 16;
+            this.txtProdSearch.TabIndex = 0;
             // 
             // gboxProductList
             // 
@@ -143,7 +143,7 @@
             // pictureBox15
             // 
             this.pictureBox15.Image = global::LogInForm.Properties.Resources.d3b0f290784fcf309e1ffdc9b27cbc1b;
-            this.pictureBox15.Location = new System.Drawing.Point(765, 399);
+            this.pictureBox15.Location = new System.Drawing.Point(768, 441);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(127, 142);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -153,7 +153,7 @@
             // pictureBox10
             // 
             this.pictureBox10.Image = global::LogInForm.Properties.Resources._267910b9260f096cddac0cb61bfced7f;
-            this.pictureBox10.Location = new System.Drawing.Point(765, 229);
+            this.pictureBox10.Location = new System.Drawing.Point(768, 271);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(127, 142);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -163,9 +163,9 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::LogInForm.Properties.Resources.gdfgfd;
-            this.pictureBox5.Location = new System.Drawing.Point(765, 57);
+            this.pictureBox5.Location = new System.Drawing.Point(743, 58);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(127, 142);
+            this.pictureBox5.Size = new System.Drawing.Size(173, 179);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 0;
             this.pictureBox5.TabStop = false;
@@ -173,7 +173,7 @@
             // pictureBox14
             // 
             this.pictureBox14.Image = global::LogInForm.Properties.Resources._72cc32ebbf6f5f8c66f27337c90da33c;
-            this.pictureBox14.Location = new System.Drawing.Point(582, 399);
+            this.pictureBox14.Location = new System.Drawing.Point(585, 441);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(127, 142);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -183,7 +183,7 @@
             // pictureBox9
             // 
             this.pictureBox9.Image = global::LogInForm.Properties.Resources.eb6add9d54e171c35318fc4e4aca7baf;
-            this.pictureBox9.Location = new System.Drawing.Point(582, 229);
+            this.pictureBox9.Location = new System.Drawing.Point(585, 271);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(127, 142);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -193,9 +193,9 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::LogInForm.Properties.Resources._9514d6f939a1672730d356fd9a51e674;
-            this.pictureBox4.Location = new System.Drawing.Point(582, 57);
+            this.pictureBox4.Location = new System.Drawing.Point(560, 58);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(127, 142);
+            this.pictureBox4.Size = new System.Drawing.Size(177, 179);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
@@ -203,7 +203,7 @@
             // pictureBox13
             // 
             this.pictureBox13.Image = global::LogInForm.Properties.Resources.e9db521e99032245672e7c609e4e6aa0;
-            this.pictureBox13.Location = new System.Drawing.Point(405, 399);
+            this.pictureBox13.Location = new System.Drawing.Point(408, 441);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(127, 142);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -213,7 +213,7 @@
             // pictureBox12
             // 
             this.pictureBox12.Image = global::LogInForm.Properties.Resources.a98ad7f3f3b67dae091d81ec372dc2d5;
-            this.pictureBox12.Location = new System.Drawing.Point(227, 399);
+            this.pictureBox12.Location = new System.Drawing.Point(230, 441);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(127, 142);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -223,7 +223,7 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = global::LogInForm.Properties.Resources._3f8f75083e75aa6d03f4d3897e629a2e;
-            this.pictureBox8.Location = new System.Drawing.Point(405, 229);
+            this.pictureBox8.Location = new System.Drawing.Point(408, 271);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(127, 142);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -233,7 +233,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::LogInForm.Properties.Resources._17048e05ac3a94ba8cf1fd8c0ac75685;
-            this.pictureBox7.Location = new System.Drawing.Point(227, 229);
+            this.pictureBox7.Location = new System.Drawing.Point(230, 271);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(127, 142);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -243,7 +243,7 @@
             // pictureBox11
             // 
             this.pictureBox11.Image = global::LogInForm.Properties.Resources.cc995d76a72c817a3b575513d19598c9;
-            this.pictureBox11.Location = new System.Drawing.Point(53, 399);
+            this.pictureBox11.Location = new System.Drawing.Point(56, 441);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(127, 142);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -253,9 +253,9 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::LogInForm.Properties.Resources.abb41b1fa0c9f80a85237f82f81e2831;
-            this.pictureBox3.Location = new System.Drawing.Point(405, 57);
+            this.pictureBox3.Location = new System.Drawing.Point(383, 58);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(127, 142);
+            this.pictureBox3.Size = new System.Drawing.Size(171, 179);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
@@ -263,7 +263,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::LogInForm.Properties.Resources.de1c39ca11a13901e52f1607057f3c8c;
-            this.pictureBox6.Location = new System.Drawing.Point(53, 229);
+            this.pictureBox6.Location = new System.Drawing.Point(56, 271);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(127, 142);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -273,9 +273,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::LogInForm.Properties.Resources.b207089a68d7e2e9e3c9e8bf72b66fac;
-            this.pictureBox2.Location = new System.Drawing.Point(227, 57);
+            this.pictureBox2.Location = new System.Drawing.Point(205, 58);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(127, 142);
+            this.pictureBox2.Size = new System.Drawing.Size(172, 179);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
@@ -283,14 +283,12 @@
             // pboxProd1
             // 
             this.pboxProd1.Image = global::LogInForm.Properties.Resources._0564653a56257253393dae4546d5860f;
-            this.pboxProd1.Location = new System.Drawing.Point(53, 57);
+            this.pboxProd1.Location = new System.Drawing.Point(31, 58);
             this.pboxProd1.Name = "pboxProd1";
-            this.pboxProd1.Size = new System.Drawing.Size(127, 142);
+            this.pboxProd1.Size = new System.Drawing.Size(168, 179);
             this.pboxProd1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pboxProd1.TabIndex = 0;
             this.pboxProd1.TabStop = false;
-            this.pboxProd1.MouseLeave += new System.EventHandler(this.pboxProd1_MouseLeave);
-            this.pboxProd1.MouseHover += new System.EventHandler(this.pboxProd1_MouseHover);
             // 
             // lblProductList
             // 

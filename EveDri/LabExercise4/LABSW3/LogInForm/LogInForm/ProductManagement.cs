@@ -17,15 +17,15 @@ namespace LogInForm
             InitializeComponent();
         }
 
-        private void pboxProd1_MouseHover(object sender, EventArgs e)
-        {
-            pboxProd1.BringToFront();
-            pboxProd1.Size = new Size(225, 202);
-        }
+        //private void pboxProd1_MouseHover(object sender, EventArgs e)
+        //{
+        //    pboxProd1.BringToFront();
+        //    pboxProd1.Size = new Size(225, 202);
+        //}
 
-        private void pboxProd1_MouseLeave(object sender, EventArgs e)
-        {
-            pboxProd1.Size = new Size(127, 142);
-        }
+        //private void pboxProd1_MouseLeave(object sender, EventArgs e)
+        //{
+        //    pboxProd1.Size = new Size(127, 142);
+        //}
     }
 }
