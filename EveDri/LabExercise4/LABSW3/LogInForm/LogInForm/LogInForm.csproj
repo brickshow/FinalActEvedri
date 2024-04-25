@@ -109,6 +109,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
@@ -125,6 +126,51 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0564653a56257253393dae4546d5860f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b207089a68d7e2e9e3c9e8bf72b66fac.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abb41b1fa0c9f80a85237f82f81e2831.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9514d6f939a1672730d356fd9a51e674.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gdfgfd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\de1c39ca11a13901e52f1607057f3c8c.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17048e05ac3a94ba8cf1fd8c0ac75685.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eb6add9d54e171c35318fc4e4aca7baf.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\267910b9260f096cddac0cb61bfced7f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3f8f75083e75aa6d03f4d3897e629a2e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cc995d76a72c817a3b575513d19598c9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a98ad7f3f3b67dae091d81ec372dc2d5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e9db521e99032245672e7c609e4e6aa0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\72cc32ebbf6f5f8c66f27337c90da33c.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d3b0f290784fcf309e1ffdc9b27cbc1b.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

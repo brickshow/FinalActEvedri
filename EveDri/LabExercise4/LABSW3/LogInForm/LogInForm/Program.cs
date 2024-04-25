@@ -16,7 +16,7 @@ namespace LogInForm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Homepage(null));
+            Application.Run(new ProductManagement());
         }
     }
 }
