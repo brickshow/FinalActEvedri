@@ -17,6 +17,11 @@ namespace LogInForm
             InitializeComponent();
         }
 
+        private void pictureBox15_Click(object sender, EventArgs e)
+        {
+
+        }
+
         //private void pboxProd1_MouseHover(object sender, EventArgs e)
         //{
         //    pboxProd1.BringToFront();
