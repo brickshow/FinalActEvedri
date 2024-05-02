@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Homepage));
             this.pnlHeader = new System.Windows.Forms.Panel();
             this.pnlGroupButton = new System.Windows.Forms.Panel();
-            this.btnInvMan = new System.Windows.Forms.Button();
             this.btnProdMan = new System.Windows.Forms.Button();
             this.btnEmpMan = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
@@ -64,7 +63,6 @@
             // 
             this.pnlGroupButton.BackColor = System.Drawing.Color.LightBlue;
             this.pnlGroupButton.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pnlGroupButton.Controls.Add(this.btnInvMan);
             this.pnlGroupButton.Controls.Add(this.btnProdMan);
             this.pnlGroupButton.Controls.Add(this.btnEmpMan);
             this.pnlGroupButton.Controls.Add(this.btnHome);
@@ -76,49 +74,31 @@
             this.pnlGroupButton.Size = new System.Drawing.Size(230, 712);
             this.pnlGroupButton.TabIndex = 7;
             // 
-            // btnInvMan
-            // 
-            this.btnInvMan.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnInvMan.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnInvMan.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInvMan.ForeColor = System.Drawing.Color.White;
-            this.btnInvMan.Image = ((System.Drawing.Image)(resources.GetObject("btnInvMan.Image")));
-            this.btnInvMan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnInvMan.Location = new System.Drawing.Point(11, 332);
-            this.btnInvMan.Name = "btnInvMan";
-            this.btnInvMan.Size = new System.Drawing.Size(204, 47);
-            this.btnInvMan.TabIndex = 10;
-            this.btnInvMan.Text = "INVENTORY \r\nMANAGEMENT";
-            this.btnInvMan.UseVisualStyleBackColor = false;
-            // 
             // btnProdMan
             // 
             this.btnProdMan.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnProdMan.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnProdMan.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProdMan.ForeColor = System.Drawing.Color.White;
-            this.btnProdMan.Image = ((System.Drawing.Image)(resources.GetObject("btnProdMan.Image")));
-            this.btnProdMan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProdMan.Location = new System.Drawing.Point(11, 268);
+            this.btnProdMan.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProdMan.ForeColor = System.Drawing.Color.Black;
+            this.btnProdMan.Location = new System.Drawing.Point(15, 345);
             this.btnProdMan.Name = "btnProdMan";
-            this.btnProdMan.Size = new System.Drawing.Size(204, 47);
+            this.btnProdMan.Size = new System.Drawing.Size(196, 54);
             this.btnProdMan.TabIndex = 9;
-            this.btnProdMan.Text = "PRODUCT \r\nMANAGEMENT";
+            this.btnProdMan.Text = "PRODUCT MANAGEMENT";
             this.btnProdMan.UseVisualStyleBackColor = false;
+            this.btnProdMan.Click += new System.EventHandler(this.btnProdMan_Click);
             // 
             // btnEmpMan
             // 
             this.btnEmpMan.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnEmpMan.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnEmpMan.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEmpMan.ForeColor = System.Drawing.Color.White;
-            this.btnEmpMan.Image = ((System.Drawing.Image)(resources.GetObject("btnEmpMan.Image")));
-            this.btnEmpMan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEmpMan.Location = new System.Drawing.Point(11, 202);
+            this.btnEmpMan.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEmpMan.ForeColor = System.Drawing.Color.Black;
+            this.btnEmpMan.Location = new System.Drawing.Point(15, 256);
             this.btnEmpMan.Name = "btnEmpMan";
-            this.btnEmpMan.Size = new System.Drawing.Size(204, 47);
+            this.btnEmpMan.Size = new System.Drawing.Size(196, 54);
             this.btnEmpMan.TabIndex = 8;
-            this.btnEmpMan.Text = "EMPLOYEE\r\nMANAGEMENT";
+            this.btnEmpMan.Text = "EMPLOYEE MANAGEMENT";
             this.btnEmpMan.UseVisualStyleBackColor = false;
             this.btnEmpMan.Click += new System.EventHandler(this.btnEmpMan_Click);
             // 
@@ -126,13 +106,11 @@
             // 
             this.btnHome.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnHome.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHome.ForeColor = System.Drawing.Color.White;
-            this.btnHome.Image = ((System.Drawing.Image)(resources.GetObject("btnHome.Image")));
-            this.btnHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHome.Location = new System.Drawing.Point(11, 138);
+            this.btnHome.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHome.ForeColor = System.Drawing.Color.Black;
+            this.btnHome.Location = new System.Drawing.Point(15, 170);
             this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(204, 47);
+            this.btnHome.Size = new System.Drawing.Size(196, 54);
             this.btnHome.TabIndex = 7;
             this.btnHome.Text = "HOME";
             this.btnHome.UseVisualStyleBackColor = false;
@@ -268,12 +246,11 @@
         private System.Windows.Forms.Label lblComparts;
         private System.Windows.Forms.Label lblLB;
         private System.Windows.Forms.Panel pnlGroupButton;
-        private System.Windows.Forms.Button btnHome;
-        private System.Windows.Forms.Button btnEmpMan;
-        private System.Windows.Forms.Button btnInvMan;
-        private System.Windows.Forms.Button btnProdMan;
         private System.Windows.Forms.Panel pnlMain;
         private System.Windows.Forms.Label lblDashboard;
         private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.Button btnHome;
+        private System.Windows.Forms.Button btnProdMan;
+        private System.Windows.Forms.Button btnEmpMan;
     }
 }
