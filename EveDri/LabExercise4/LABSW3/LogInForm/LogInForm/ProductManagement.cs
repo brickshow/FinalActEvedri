@@ -15,22 +15,12 @@ namespace LogInForm
         public ProductManagement()
         {
             InitializeComponent();
+            pnlItemDetails.Hide();
         }
 
-        private void pictureBox15_Click(object sender, EventArgs e)
+        private void btnUnit1_Click(object sender, EventArgs e)
         {
-
+            pnlItemDetails.Show();
         }
-
-        //private void pboxProd1_MouseHover(object sender, EventArgs e)
-        //{
-        //    pboxProd1.BringToFront();
-        //    pboxProd1.Size = new Size(225, 202);
-        //}
-
-        //private void pboxProd1_MouseLeave(object sender, EventArgs e)
-        //{
-        //    pboxProd1.Size = new Size(127, 142);
-        //}
     }
 }

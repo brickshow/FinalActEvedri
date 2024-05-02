@@ -67,6 +67,7 @@
             this.lblPriceNum = new System.Windows.Forms.Label();
             this.btnEdit = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
+            this.lblInstruction = new System.Windows.Forms.Label();
             this.pnlDisplayProduct.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             this.gboxProductList.SuspendLayout();
@@ -77,9 +78,9 @@
             // 
             this.pnlDisplayProduct.BackColor = System.Drawing.Color.Black;
             this.pnlDisplayProduct.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnlDisplayProduct.Controls.Add(this.gboxProductList);
             this.pnlDisplayProduct.Controls.Add(this.pictureBox16);
             this.pnlDisplayProduct.Controls.Add(this.txtProdSearch);
-            this.pnlDisplayProduct.Controls.Add(this.gboxProductList);
             this.pnlDisplayProduct.Controls.Add(this.lblProductList);
             this.pnlDisplayProduct.Location = new System.Drawing.Point(7, 7);
             this.pnlDisplayProduct.Name = "pnlDisplayProduct";
@@ -124,6 +125,7 @@
             this.gboxProductList.Controls.Add(this.btnUnit2);
             this.gboxProductList.Controls.Add(this.btnUnit1);
             this.gboxProductList.Controls.Add(this.btnUnit3);
+            this.gboxProductList.Controls.Add(this.lblInstruction);
             this.gboxProductList.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gboxProductList.ForeColor = System.Drawing.Color.White;
             this.gboxProductList.Location = new System.Drawing.Point(12, 52);
@@ -155,6 +157,7 @@
             this.btnUnit1.Size = new System.Drawing.Size(168, 179);
             this.btnUnit1.TabIndex = 2;
             this.btnUnit1.UseVisualStyleBackColor = true;
+            this.btnUnit1.Click += new System.EventHandler(this.btnUnit1_Click);
             // 
             // btnUnit2
             // 
@@ -305,7 +308,7 @@
             this.pnlItemDetails.Controls.Add(this.txtSerial);
             this.pnlItemDetails.Controls.Add(this.txtBName);
             this.pnlItemDetails.Controls.Add(this.label1);
-            this.pnlItemDetails.Location = new System.Drawing.Point(268, 24);
+            this.pnlItemDetails.Location = new System.Drawing.Point(267, 25);
             this.pnlItemDetails.Name = "pnlItemDetails";
             this.pnlItemDetails.Size = new System.Drawing.Size(400, 548);
             this.pnlItemDetails.TabIndex = 13;
@@ -325,14 +328,14 @@
             // 
             // txtBName
             // 
-            this.txtBName.Location = new System.Drawing.Point(17, 89);
+            this.txtBName.Location = new System.Drawing.Point(17, 113);
             this.txtBName.Name = "txtBName";
             this.txtBName.Size = new System.Drawing.Size(177, 26);
             this.txtBName.TabIndex = 17;
             // 
             // txtProcessor
             // 
-            this.txtProcessor.Location = new System.Drawing.Point(17, 260);
+            this.txtProcessor.Location = new System.Drawing.Point(17, 284);
             this.txtProcessor.Name = "txtProcessor";
             this.txtProcessor.Size = new System.Drawing.Size(360, 26);
             this.txtProcessor.TabIndex = 17;
@@ -341,7 +344,7 @@
             // 
             this.lblBName.AutoSize = true;
             this.lblBName.ForeColor = System.Drawing.Color.Black;
-            this.lblBName.Location = new System.Drawing.Point(13, 70);
+            this.lblBName.Location = new System.Drawing.Point(13, 94);
             this.lblBName.Name = "lblBName";
             this.lblBName.Size = new System.Drawing.Size(87, 19);
             this.lblBName.TabIndex = 26;
@@ -351,7 +354,7 @@
             // 
             this.lblProcessor.AutoSize = true;
             this.lblProcessor.ForeColor = System.Drawing.Color.Black;
-            this.lblProcessor.Location = new System.Drawing.Point(13, 241);
+            this.lblProcessor.Location = new System.Drawing.Point(13, 265);
             this.lblProcessor.Name = "lblProcessor";
             this.lblProcessor.Size = new System.Drawing.Size(70, 19);
             this.lblProcessor.TabIndex = 26;
@@ -359,14 +362,14 @@
             // 
             // txtSerial
             // 
-            this.txtSerial.Location = new System.Drawing.Point(17, 140);
+            this.txtSerial.Location = new System.Drawing.Point(17, 164);
             this.txtSerial.Name = "txtSerial";
             this.txtSerial.Size = new System.Drawing.Size(177, 26);
             this.txtSerial.TabIndex = 17;
             // 
             // txtGpu
             // 
-            this.txtGpu.Location = new System.Drawing.Point(200, 140);
+            this.txtGpu.Location = new System.Drawing.Point(200, 164);
             this.txtGpu.Name = "txtGpu";
             this.txtGpu.Size = new System.Drawing.Size(177, 26);
             this.txtGpu.TabIndex = 17;
@@ -375,7 +378,7 @@
             // 
             this.lblSerial.AutoSize = true;
             this.lblSerial.ForeColor = System.Drawing.Color.Black;
-            this.lblSerial.Location = new System.Drawing.Point(13, 121);
+            this.lblSerial.Location = new System.Drawing.Point(13, 145);
             this.lblSerial.Name = "lblSerial";
             this.lblSerial.Size = new System.Drawing.Size(43, 19);
             this.lblSerial.TabIndex = 26;
@@ -385,7 +388,7 @@
             // 
             this.lblGpu.AutoSize = true;
             this.lblGpu.ForeColor = System.Drawing.Color.Black;
-            this.lblGpu.Location = new System.Drawing.Point(196, 121);
+            this.lblGpu.Location = new System.Drawing.Point(196, 145);
             this.lblGpu.Name = "lblGpu";
             this.lblGpu.Size = new System.Drawing.Size(40, 19);
             this.lblGpu.TabIndex = 26;
@@ -393,14 +396,14 @@
             // 
             // txtStypr
             // 
-            this.txtStypr.Location = new System.Drawing.Point(17, 198);
+            this.txtStypr.Location = new System.Drawing.Point(17, 222);
             this.txtStypr.Name = "txtStypr";
             this.txtStypr.Size = new System.Drawing.Size(177, 26);
             this.txtStypr.TabIndex = 17;
             // 
             // txtOS
             // 
-            this.txtOS.Location = new System.Drawing.Point(200, 198);
+            this.txtOS.Location = new System.Drawing.Point(200, 222);
             this.txtOS.Name = "txtOS";
             this.txtOS.Size = new System.Drawing.Size(177, 26);
             this.txtOS.TabIndex = 17;
@@ -409,7 +412,7 @@
             // 
             this.lblStorageType.AutoSize = true;
             this.lblStorageType.ForeColor = System.Drawing.Color.Black;
-            this.lblStorageType.Location = new System.Drawing.Point(13, 179);
+            this.lblStorageType.Location = new System.Drawing.Point(13, 203);
             this.lblStorageType.Name = "lblStorageType";
             this.lblStorageType.Size = new System.Drawing.Size(90, 19);
             this.lblStorageType.TabIndex = 26;
@@ -419,7 +422,7 @@
             // 
             this.lblOS.AutoSize = true;
             this.lblOS.ForeColor = System.Drawing.Color.Black;
-            this.lblOS.Location = new System.Drawing.Point(196, 179);
+            this.lblOS.Location = new System.Drawing.Point(196, 203);
             this.lblOS.Name = "lblOS";
             this.lblOS.Size = new System.Drawing.Size(30, 19);
             this.lblOS.TabIndex = 26;
@@ -427,7 +430,7 @@
             // 
             // txtRAM
             // 
-            this.txtRAM.Location = new System.Drawing.Point(200, 89);
+            this.txtRAM.Location = new System.Drawing.Point(200, 113);
             this.txtRAM.Name = "txtRAM";
             this.txtRAM.Size = new System.Drawing.Size(177, 26);
             this.txtRAM.TabIndex = 17;
@@ -436,7 +439,7 @@
             // 
             this.lblRamSize.AutoSize = true;
             this.lblRamSize.ForeColor = System.Drawing.Color.Black;
-            this.lblRamSize.Location = new System.Drawing.Point(196, 70);
+            this.lblRamSize.Location = new System.Drawing.Point(196, 94);
             this.lblRamSize.Name = "lblRamSize";
             this.lblRamSize.Size = new System.Drawing.Size(44, 19);
             this.lblRamSize.TabIndex = 26;
@@ -446,7 +449,7 @@
             // 
             this.lblprice.AutoSize = true;
             this.lblprice.ForeColor = System.Drawing.Color.Black;
-            this.lblprice.Location = new System.Drawing.Point(43, 357);
+            this.lblprice.Location = new System.Drawing.Point(40, 357);
             this.lblprice.Name = "lblprice";
             this.lblprice.Size = new System.Drawing.Size(43, 19);
             this.lblprice.TabIndex = 26;
@@ -489,6 +492,16 @@
             this.btnUpdate.Text = "UPDATE";
             this.btnUpdate.UseVisualStyleBackColor = false;
             // 
+            // lblInstruction
+            // 
+            this.lblInstruction.AutoSize = true;
+            this.lblInstruction.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInstruction.Location = new System.Drawing.Point(6, 39);
+            this.lblInstruction.Name = "lblInstruction";
+            this.lblInstruction.Size = new System.Drawing.Size(299, 21);
+            this.lblInstruction.TabIndex = 23;
+            this.lblInstruction.Text = "Please click the product to view details";
+            // 
             // ProductManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -503,6 +516,7 @@
             this.pnlDisplayProduct.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             this.gboxProductList.ResumeLayout(false);
+            this.gboxProductList.PerformLayout();
             this.pnlItemDetails.ResumeLayout(false);
             this.pnlItemDetails.PerformLayout();
             this.ResumeLayout(false);
@@ -549,5 +563,6 @@
         private System.Windows.Forms.Label lblprice;
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnEdit;
+        private System.Windows.Forms.Label lblInstruction;
     }
 }
