@@ -22,5 +22,10 @@ namespace LogInForm
         {
             pnlItemDetails.Show();
         }
+
+        private void pictureBox16_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

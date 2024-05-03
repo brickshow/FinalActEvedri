@@ -52,9 +52,6 @@
             this.txtBName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnMon2 = new System.Windows.Forms.Button();
-            this.pnlDesign1 = new System.Windows.Forms.Panel();
-            this.pnlDesign3 = new System.Windows.Forms.Panel();
-            this.pnlDesign2 = new System.Windows.Forms.Panel();
             this.btnmon3 = new System.Windows.Forms.Button();
             this.btnkeyB2 = new System.Windows.Forms.Button();
             this.btnKeyB1 = new System.Windows.Forms.Button();
@@ -62,12 +59,12 @@
             this.btnUnit5 = new System.Windows.Forms.Button();
             this.btnUnit4 = new System.Windows.Forms.Button();
             this.btnUnit2 = new System.Windows.Forms.Button();
-            this.btnUnit1 = new System.Windows.Forms.Button();
-            this.btnUnit3 = new System.Windows.Forms.Button();
             this.lblInstruction = new System.Windows.Forms.Label();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.txtProdSearch = new System.Windows.Forms.TextBox();
             this.lblProductList = new System.Windows.Forms.Label();
+            this.btnUnit1 = new System.Windows.Forms.Button();
+            this.btnUnit3 = new System.Windows.Forms.Button();
             this.pnlDisplayProduct.SuspendLayout();
             this.gboxProductList.SuspendLayout();
             this.pnlItemDetails.SuspendLayout();
@@ -84,7 +81,7 @@
             this.pnlDisplayProduct.Controls.Add(this.lblProductList);
             this.pnlDisplayProduct.Location = new System.Drawing.Point(7, 7);
             this.pnlDisplayProduct.Name = "pnlDisplayProduct";
-            this.pnlDisplayProduct.Size = new System.Drawing.Size(972, 811);
+            this.pnlDisplayProduct.Size = new System.Drawing.Size(834, 756);
             this.pnlDisplayProduct.TabIndex = 5;
             // 
             // gboxProductList
@@ -92,9 +89,6 @@
             this.gboxProductList.BackColor = System.Drawing.Color.Black;
             this.gboxProductList.Controls.Add(this.pnlItemDetails);
             this.gboxProductList.Controls.Add(this.btnMon2);
-            this.gboxProductList.Controls.Add(this.pnlDesign1);
-            this.gboxProductList.Controls.Add(this.pnlDesign3);
-            this.gboxProductList.Controls.Add(this.pnlDesign2);
             this.gboxProductList.Controls.Add(this.btnmon3);
             this.gboxProductList.Controls.Add(this.btnkeyB2);
             this.gboxProductList.Controls.Add(this.btnKeyB1);
@@ -107,9 +101,9 @@
             this.gboxProductList.Controls.Add(this.lblInstruction);
             this.gboxProductList.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gboxProductList.ForeColor = System.Drawing.Color.White;
-            this.gboxProductList.Location = new System.Drawing.Point(12, 55);
+            this.gboxProductList.Location = new System.Drawing.Point(9, 55);
             this.gboxProductList.Name = "gboxProductList";
-            this.gboxProductList.Size = new System.Drawing.Size(944, 739);
+            this.gboxProductList.Size = new System.Drawing.Size(811, 687);
             this.gboxProductList.TabIndex = 15;
             this.gboxProductList.TabStop = false;
             // 
@@ -136,7 +130,7 @@
             this.pnlItemDetails.Controls.Add(this.txtSerial);
             this.pnlItemDetails.Controls.Add(this.txtBName);
             this.pnlItemDetails.Controls.Add(this.label1);
-            this.pnlItemDetails.Location = new System.Drawing.Point(269, 120);
+            this.pnlItemDetails.Location = new System.Drawing.Point(201, 72);
             this.pnlItemDetails.Name = "pnlItemDetails";
             this.pnlItemDetails.Size = new System.Drawing.Size(400, 548);
             this.pnlItemDetails.TabIndex = 13;
@@ -332,47 +326,20 @@
             this.btnMon2.BackgroundImage = global::LogInForm.Properties.Resources._3f8f75083e75aa6d03f4d3897e629a2e;
             this.btnMon2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnMon2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnMon2.Location = new System.Drawing.Point(389, 471);
+            this.btnMon2.Location = new System.Drawing.Point(332, 301);
             this.btnMon2.Name = "btnMon2";
-            this.btnMon2.Size = new System.Drawing.Size(168, 179);
+            this.btnMon2.Size = new System.Drawing.Size(147, 152);
             this.btnMon2.TabIndex = 9;
             this.btnMon2.UseVisualStyleBackColor = true;
-            // 
-            // pnlDesign1
-            // 
-            this.pnlDesign1.BackColor = System.Drawing.Color.DodgerBlue;
-            this.pnlDesign1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pnlDesign1.Location = new System.Drawing.Point(9, 105);
-            this.pnlDesign1.Name = "pnlDesign1";
-            this.pnlDesign1.Size = new System.Drawing.Size(924, 10);
-            this.pnlDesign1.TabIndex = 12;
-            // 
-            // pnlDesign3
-            // 
-            this.pnlDesign3.BackColor = System.Drawing.Color.DodgerBlue;
-            this.pnlDesign3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pnlDesign3.Location = new System.Drawing.Point(9, 674);
-            this.pnlDesign3.Name = "pnlDesign3";
-            this.pnlDesign3.Size = new System.Drawing.Size(924, 10);
-            this.pnlDesign3.TabIndex = 12;
-            // 
-            // pnlDesign2
-            // 
-            this.pnlDesign2.BackColor = System.Drawing.Color.DodgerBlue;
-            this.pnlDesign2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pnlDesign2.Location = new System.Drawing.Point(8, 381);
-            this.pnlDesign2.Name = "pnlDesign2";
-            this.pnlDesign2.Size = new System.Drawing.Size(924, 10);
-            this.pnlDesign2.TabIndex = 12;
             // 
             // btnmon3
             // 
             this.btnmon3.BackgroundImage = global::LogInForm.Properties.Resources._267910b9260f096cddac0cb61bfced7f;
             this.btnmon3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnmon3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnmon3.Location = new System.Drawing.Point(765, 471);
+            this.btnmon3.Location = new System.Drawing.Point(650, 301);
             this.btnmon3.Name = "btnmon3";
-            this.btnmon3.Size = new System.Drawing.Size(168, 179);
+            this.btnmon3.Size = new System.Drawing.Size(147, 152);
             this.btnmon3.TabIndex = 11;
             this.btnmon3.UseVisualStyleBackColor = true;
             // 
@@ -381,9 +348,9 @@
             this.btnkeyB2.BackgroundImage = global::LogInForm.Properties.Resources._72cc32ebbf6f5f8c66f27337c90da33c;
             this.btnkeyB2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnkeyB2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnkeyB2.Location = new System.Drawing.Point(576, 471);
+            this.btnkeyB2.Location = new System.Drawing.Point(490, 301);
             this.btnkeyB2.Name = "btnkeyB2";
-            this.btnkeyB2.Size = new System.Drawing.Size(171, 179);
+            this.btnkeyB2.Size = new System.Drawing.Size(147, 152);
             this.btnkeyB2.TabIndex = 10;
             this.btnkeyB2.UseVisualStyleBackColor = true;
             // 
@@ -392,9 +359,9 @@
             this.btnKeyB1.BackgroundImage = global::LogInForm.Properties.Resources.d3b0f290784fcf309e1ffdc9b27cbc1b;
             this.btnKeyB1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnKeyB1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnKeyB1.Location = new System.Drawing.Point(194, 471);
+            this.btnKeyB1.Location = new System.Drawing.Point(171, 301);
             this.btnKeyB1.Name = "btnKeyB1";
-            this.btnKeyB1.Size = new System.Drawing.Size(168, 179);
+            this.btnKeyB1.Size = new System.Drawing.Size(149, 152);
             this.btnKeyB1.TabIndex = 8;
             this.btnKeyB1.UseVisualStyleBackColor = true;
             // 
@@ -403,9 +370,9 @@
             this.btnMon1.BackgroundImage = global::LogInForm.Properties.Resources.de1c39ca11a13901e52f1607057f3c8c;
             this.btnMon1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnMon1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnMon1.Location = new System.Drawing.Point(8, 471);
+            this.btnMon1.Location = new System.Drawing.Point(12, 301);
             this.btnMon1.Name = "btnMon1";
-            this.btnMon1.Size = new System.Drawing.Size(168, 179);
+            this.btnMon1.Size = new System.Drawing.Size(149, 152);
             this.btnMon1.TabIndex = 7;
             this.btnMon1.UseVisualStyleBackColor = true;
             // 
@@ -414,9 +381,9 @@
             this.btnUnit5.BackgroundImage = global::LogInForm.Properties.Resources.gdfgfd;
             this.btnUnit5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnUnit5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnUnit5.Location = new System.Drawing.Point(762, 131);
+            this.btnUnit5.Location = new System.Drawing.Point(650, 72);
             this.btnUnit5.Name = "btnUnit5";
-            this.btnUnit5.Size = new System.Drawing.Size(171, 179);
+            this.btnUnit5.Size = new System.Drawing.Size(147, 152);
             this.btnUnit5.TabIndex = 6;
             this.btnUnit5.UseVisualStyleBackColor = true;
             // 
@@ -425,9 +392,9 @@
             this.btnUnit4.BackgroundImage = global::LogInForm.Properties.Resources._9514d6f939a1672730d356fd9a51e674;
             this.btnUnit4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnUnit4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnUnit4.Location = new System.Drawing.Point(576, 131);
+            this.btnUnit4.Location = new System.Drawing.Point(490, 72);
             this.btnUnit4.Name = "btnUnit4";
-            this.btnUnit4.Size = new System.Drawing.Size(171, 179);
+            this.btnUnit4.Size = new System.Drawing.Size(147, 152);
             this.btnUnit4.TabIndex = 5;
             this.btnUnit4.UseVisualStyleBackColor = true;
             // 
@@ -436,34 +403,11 @@
             this.btnUnit2.BackgroundImage = global::LogInForm.Properties.Resources.b207089a68d7e2e9e3c9e8bf72b66fac;
             this.btnUnit2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnUnit2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnUnit2.Location = new System.Drawing.Point(194, 131);
+            this.btnUnit2.Location = new System.Drawing.Point(332, 72);
             this.btnUnit2.Name = "btnUnit2";
-            this.btnUnit2.Size = new System.Drawing.Size(172, 179);
+            this.btnUnit2.Size = new System.Drawing.Size(147, 152);
             this.btnUnit2.TabIndex = 3;
             this.btnUnit2.UseVisualStyleBackColor = true;
-            // 
-            // btnUnit1
-            // 
-            this.btnUnit1.BackgroundImage = global::LogInForm.Properties.Resources._0564653a56257253393dae4546d5860f;
-            this.btnUnit1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnUnit1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnUnit1.Location = new System.Drawing.Point(8, 131);
-            this.btnUnit1.Name = "btnUnit1";
-            this.btnUnit1.Size = new System.Drawing.Size(168, 179);
-            this.btnUnit1.TabIndex = 2;
-            this.btnUnit1.UseVisualStyleBackColor = true;
-            this.btnUnit1.Click += new System.EventHandler(this.btnUnit1_Click);
-            // 
-            // btnUnit3
-            // 
-            this.btnUnit3.BackgroundImage = global::LogInForm.Properties.Resources.abb41b1fa0c9f80a85237f82f81e2831;
-            this.btnUnit3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnUnit3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnUnit3.Location = new System.Drawing.Point(386, 131);
-            this.btnUnit3.Name = "btnUnit3";
-            this.btnUnit3.Size = new System.Drawing.Size(171, 179);
-            this.btnUnit3.TabIndex = 4;
-            this.btnUnit3.UseVisualStyleBackColor = true;
             // 
             // lblInstruction
             // 
@@ -479,19 +423,20 @@
             // 
             this.pictureBox16.BackColor = System.Drawing.Color.White;
             this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
-            this.pictureBox16.Location = new System.Drawing.Point(890, 19);
+            this.pictureBox16.Location = new System.Drawing.Point(791, 18);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(27, 25);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox16.TabIndex = 0;
             this.pictureBox16.TabStop = false;
+            this.pictureBox16.Click += new System.EventHandler(this.pictureBox16_Click);
             // 
             // txtProdSearch
             // 
             this.txtProdSearch.BackColor = System.Drawing.SystemColors.Window;
             this.txtProdSearch.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtProdSearch.ForeColor = System.Drawing.Color.Black;
-            this.txtProdSearch.Location = new System.Drawing.Point(678, 17);
+            this.txtProdSearch.Location = new System.Drawing.Point(579, 16);
             this.txtProdSearch.Name = "txtProdSearch";
             this.txtProdSearch.Size = new System.Drawing.Size(241, 29);
             this.txtProdSearch.TabIndex = 0;
@@ -503,11 +448,34 @@
             this.lblProductList.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblProductList.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblProductList.ForeColor = System.Drawing.Color.White;
-            this.lblProductList.Location = new System.Drawing.Point(12, 10);
+            this.lblProductList.Location = new System.Drawing.Point(7, 10);
             this.lblProductList.Name = "lblProductList";
             this.lblProductList.Size = new System.Drawing.Size(222, 34);
             this.lblProductList.TabIndex = 13;
             this.lblProductList.Text = "PRODUCT LIST";
+            // 
+            // btnUnit1
+            // 
+            this.btnUnit1.BackgroundImage = global::LogInForm.Properties.Resources._0564653a56257253393dae4546d5860f;
+            this.btnUnit1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnUnit1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnUnit1.Location = new System.Drawing.Point(12, 72);
+            this.btnUnit1.Name = "btnUnit1";
+            this.btnUnit1.Size = new System.Drawing.Size(149, 152);
+            this.btnUnit1.TabIndex = 2;
+            this.btnUnit1.UseVisualStyleBackColor = true;
+            this.btnUnit1.Click += new System.EventHandler(this.btnUnit1_Click);
+            // 
+            // btnUnit3
+            // 
+            this.btnUnit3.BackgroundImage = global::LogInForm.Properties.Resources.abb41b1fa0c9f80a85237f82f81e2831;
+            this.btnUnit3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnUnit3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnUnit3.Location = new System.Drawing.Point(171, 72);
+            this.btnUnit3.Name = "btnUnit3";
+            this.btnUnit3.Size = new System.Drawing.Size(149, 152);
+            this.btnUnit3.TabIndex = 4;
+            this.btnUnit3.UseVisualStyleBackColor = true;
             // 
             // ProductManagement
             // 
@@ -537,8 +505,6 @@
         private System.Windows.Forms.GroupBox gboxProductList;
         private System.Windows.Forms.PictureBox pictureBox16;
         private System.Windows.Forms.TextBox txtProdSearch;
-        private System.Windows.Forms.Button btnUnit1;
-        private System.Windows.Forms.Button btnUnit3;
         private System.Windows.Forms.Button btnUnit2;
         private System.Windows.Forms.Button btnUnit5;
         private System.Windows.Forms.Button btnUnit4;
@@ -546,9 +512,6 @@
         private System.Windows.Forms.Button btnkeyB2;
         private System.Windows.Forms.Button btnMon2;
         private System.Windows.Forms.Button btnKeyB1;
-        private System.Windows.Forms.Panel pnlDesign1;
-        private System.Windows.Forms.Panel pnlDesign3;
-        private System.Windows.Forms.Panel pnlDesign2;
         private System.Windows.Forms.Button btnmon3;
         private System.Windows.Forms.Panel pnlItemDetails;
         private System.Windows.Forms.TextBox txtProcessor;
@@ -571,5 +534,7 @@
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnEdit;
         private System.Windows.Forms.Label lblInstruction;
+        private System.Windows.Forms.Button btnUnit1;
+        private System.Windows.Forms.Button btnUnit3;
     }
 }

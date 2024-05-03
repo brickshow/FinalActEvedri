@@ -42,6 +42,7 @@ namespace LogInForm
 
         private void btnEmpMan_Click(object sender, EventArgs e)
         {
+            pnlMain.Controls.Clear();
             lblDashboard.Hide();
             reg.TopLevel = false;
             pnlMain.Controls.Add(reg);
@@ -51,6 +52,7 @@ namespace LogInForm
 
         private void btnProdMan_Click(object sender, EventArgs e)
         {
+            pnlMain.Controls.Clear();
             lblDashboard.Hide();
             prodMan.TopLevel = false;
             pnlMain.Controls.Add(prodMan);
